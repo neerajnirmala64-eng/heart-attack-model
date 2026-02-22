@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/19uIVC-CAXaYpfGI4JdnWtIn-xn3XS5_L
 """
 
-import steamlit as st
+import streamlit as st
 import joblib
 
 model = joblib.load("dtc_model.pkl")
