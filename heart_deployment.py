@@ -23,7 +23,6 @@ diastolic_bp = st.number_input("Diastolic blood pressure")
 blood_sugar = st.number_input("Blood sugar")
 ck_mb = st.number_input("CK-MB")
 troponin = st.number_input("Troponin")
-result = st.number_input("Result")
 
 input_data = pd.DataFrame([[
     age,
