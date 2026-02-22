@@ -10,7 +10,7 @@ Original file is located at
 import streamlit as st
 import joblib
 
-model = joblib.load("dtc_model.pkl")
+model = joblib.load("dtc_model (2).pkl")
 
 st.title("Medical data set!")
 
